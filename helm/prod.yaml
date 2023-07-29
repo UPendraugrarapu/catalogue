@@ -1,4 +1,8 @@
+env: prod
 component: catalogue
 params: "DOCUMENTDB:prod.catalogue.mongo,MONGO_URL:prod.docdb.url.catalogue"
 
+schemaLoadJob:
+  create: true
+  type: mongo
 
